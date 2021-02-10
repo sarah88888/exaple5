@@ -17,13 +17,13 @@ end = int(input('enter end number:'))
 
 
 
-for less in range(start,end,50):
+for less in range(start,end,52):
     if less<20:
-        for less in range(20, 50,3):
+        for less in range(20, 52,3):
             print(less)
 
     else:
-        for less in range(20, 50, 2):
+        for less in range(20, 52, 2):
                 print(less )
 
 
