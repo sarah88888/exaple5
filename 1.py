@@ -3,15 +3,16 @@ end = int(input('enter end number:'))
 
 
 
+less = 0
+if less < 20:
+    for less in range(start, end,50):
 
-for less in range(start,end):
-    if less<20:
-        for less in range(20, 50,3):
+        for less in range(20, 50, 3):
             print(less)
 
     else:
         for less in range(20, 50, 2):
-                print(less )
+            print(less)
     
 
 
