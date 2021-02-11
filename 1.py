@@ -19,11 +19,11 @@ end = int(input('enter end number:'))
 
 for less in range(start,end,52):
     if less<20:
-        for less in range(20, 52,3):
+        for less in range(start, end,3):
             print(less)
 
     else:
-        for less in range(20, 52, 2):
+        for less in range(start, end, 2):
                 print(less )
 
 
